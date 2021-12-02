@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>21A559</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>PiPer</string>
+	<key>CFBundleExecutable</key>
+	<string>PiPerExt</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.amarcus.PiPer.PiPerExt</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>PiPerExt</string>
+	<key>CFBundlePackageType</key>
+	<string>XPC!</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.4</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>235</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>13A1030d</string>
+	<key>DTPlatformName</key>
+	<string>macosx</string>
+	<key>DTPlatformVersion</key>
+	<string>12.0</string>
+	<key>DTSDKBuild</key>
+	<string>21A344</string>
+	<key>DTSDKName</key>
+	<string>macosx12.0</string>
+	<key>DTXcode</key>
+	<string>1310</string>
+	<key>DTXcodeBuild</key>
+	<string>13A1030d</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.15</string>
+	<key>NSExtension</key>
+	<dict>
+		<key>NSExtensionPointIdentifier</key>
+		<string>com.apple.Safari.extension</string>
+		<key>NSExtensionPrincipalClass</key>
+		<string>PiPerExt.SafariExtensionHandler</string>
+		<key>SFSafariContentScript</key>
+		<array>
+			<dict>
+				<key>Script</key>
+				<string>scripts/main.js</string>
+			</dict>
+		</array>
+		<key>SFSafariExtensionBundleIdentifiersToUninstall</key>
+		<array>
+			<string>com.amarcus.safari.piper</string>
+		</array>
+		<key>SFSafariWebsiteAccess</key>
+		<dict>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2018 Adam Marcus. All rights reserved.</string>
+	<key>NSHumanReadableDescription</key>
+	<string>Adds Picture in Picture functionality to Youtube, Netflix, Amazon Video, Twitch, and more!</string>
+</dict>
+</plist>
