@@ -9,15 +9,16 @@ export const resource = {
     return parent.lastChild;
   },
   buttonParent: function() {
-    return document.querySelector('.PlayerControlsNeo__button-control-row'); 
+    // return document.querySelector('[data-uia="controls-standard"]'); 
+    return document.querySelector('div[style="align-items: normal; justify-content: normal;"] > [style="align-items: normal; justify-content: flex-end;"]'); 
   },
-  buttonScale: 0.7,
+  buttonScale: 1.5,
   buttonStyle: /** CSS */ (`min-width: 2.3em`),
   captionElement: function() {
     const e = getResource().videoElement();
-    return e && e.parentElement.querySelector('.player-timedtext');
+    return e && e.parentElement.querySelector('.player-timedtext-text-container');
   },
   videoElement: function() {
-    return document.querySelector('.VideoContainer video');
+    return document.querySelector('video[tabindex="-1"]');
   },
 };
